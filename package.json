@@ -1,0 +1,27 @@
+{
+  "name": "aniconstructproject",
+  "version": "1.0.0",
+  "description": "Ani Construct Project WebSite",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jor2611/AniConstructProject.git"
+  },
+  "keywords": [
+    "Construction",
+    "Engineering",
+    "Design"
+  ],
+  "author": "Jora Khachatryan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jor2611/AniConstructProject/issues"
+  },
+  "homepage": "https://Jor2611.github.io/AniConstructProject",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}

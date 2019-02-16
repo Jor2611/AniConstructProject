@@ -1345,6 +1345,10 @@ article.personal-profile .inner h4 {
 .service-box .inner {
 	margin-left: 260px;
 }
+.service-box .inner a{
+	color:#202020;
+	text-decoration: none;
+}
 
 .service-box:nth-child(2n) .inner {
 	margin-left: 0;

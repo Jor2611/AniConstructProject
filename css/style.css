@@ -343,7 +343,7 @@ address {
 	z-index: 0;
 }
 
-.overlay-grid-2-2:after {
+/* .overlay-grid-2-2:after {
 	background: url(../img/overlay-grid.png);
 }
 
@@ -373,7 +373,7 @@ address {
 
 .overlay-light-75:after {
 	background-color: rgba(255, 255, 255, 0.75);
-}
+} */
 
 /* Clearfix */
 

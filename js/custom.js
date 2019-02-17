@@ -267,4 +267,20 @@ jQuery(document).ready(function($) {
 		return false;
 	});
 
+/*==========================================================*/
+/* Localiztaion
+/*==========================================================*/
+	
+	$('.page-lang:eq(0)').on('click',function(){
+		window.location.replace('index_am.html');
+		// console.log(window.location.pathname.match(/am/i));
+	});
+
+	$('.page-lang:eq(1)').on('click',function(){
+		window.location.replace('index.html');
+	});
+
+	// $('.page-lang:eq(1)').on('click',function(){
+	// 	window.location.replace('index.html');
+	// });
 });

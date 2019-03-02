@@ -1354,7 +1354,7 @@ article.personal-profile .inner h4 {
 .service-box:nth-child(2n) .inner {
 	margin-left: 0;
 	margin-right: 260px;
-	text-align: right;
+	/* text-align: right; */
 }
 
 

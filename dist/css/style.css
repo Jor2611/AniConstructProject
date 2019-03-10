@@ -343,7 +343,7 @@ address {
 	z-index: 0;
 }
 
-/* .overlay-grid-2-2:after {
+.overlay-grid-2-2:after {
 	background: url(../img/overlay-grid.png);
 }
 
@@ -352,11 +352,11 @@ address {
 }
 
 .overlay-dark-25:after {
-	background-color: rgba(0, 0, 0, 0.25);
+	background-color: rgba(0, 0, 0, 0.15);
 }
 
 .overlay-dark-50:after {
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.18);
 }
 
 .overlay-dark-75:after {
@@ -373,7 +373,7 @@ address {
 
 .overlay-light-75:after {
 	background-color: rgba(255, 255, 255, 0.75);
-} */
+}
 
 /* Clearfix */
 

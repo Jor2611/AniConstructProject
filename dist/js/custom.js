@@ -11,6 +11,14 @@ jQuery(document).ready(function($) {
 		$('#preloader').delay(350).fadeOut('slow');
 	});
 
+	let val = window.location.pathname;
+	if (val.match(/_am/g)) {
+		$(".page-lang:eq(0)").hide();
+	}else if(val.match(/_ru/g)){
+		$(".page-lang:eq(2)").hide();
+	}else{
+		$(".page-lang:eq(1)").hide();
+	}
 /*==========================================================*/
 /* Collapsible sidebar
 /*==========================================================*/

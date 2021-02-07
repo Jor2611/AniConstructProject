@@ -282,9 +282,8 @@ jQuery(document).ready(function($) {
 	$('.page-lang:eq(0)').on('click touchstart',function(){
 		let path = window.location.pathname.replace('/dist/','');
 		path = path.replace('_ru','');
-		path = path.replace('.html','');
-		console.log(path);
-		path.length < 1 ? path = 'index' : path;
+		path = path.match(/.html/) ? path.replace('.html','') : '/';
+		path === '/' ? path = 'index' : path;
 		window.location.replace(`${path}_am.html`);
 		// console.log(window.location.pathname.match(/am/i));
 	});
@@ -293,15 +292,16 @@ jQuery(document).ready(function($) {
 		let path = window.location.pathname.replace('/dist/','');
 		path = path.replace('_ru','');
 		path = path.replace('_am','');
-		path.length < 1 ? path = 'index' : path;
+		path = path.match(/.html/) ? path.replace('.html','') : '/';
+		path === '/' ? path = 'index' : path;
 		window.location.replace(`${path}`);
 	});
 
 	$('.page-lang:eq(2)').on('click touchstart',function(){
 		let path = window.location.pathname.replace('/dist/','');
 		path = path.replace('_am','');
-		path = path.replace('.html','');
-		path.length < 1 ? path = 'index' : path;
+		path = path.match(/.html/) ? path.replace('.html','') : '/';
+		path === '/' ? path = 'index' : path;
 		window.location.replace(`${path}_ru.html`);
 	});
 });

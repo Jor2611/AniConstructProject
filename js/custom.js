@@ -279,16 +279,25 @@ jQuery(document).ready(function($) {
 /* Localiztaion
 /*==========================================================*/
 	
-	$('.page-lang:eq(0)').on('click',function(){
-		window.location.replace('index_am.html');
+	$('.page-lang:eq(0)').on('click touchstart',function(){
+		let path = window.location.pathname.replace('/dist/','');
+		path = path.replace('_ru','');
+		path = path.replace('.html','');
+		window.location.replace(`${path}_am.html`);
 		// console.log(window.location.pathname.match(/am/i));
 	});
 
-	$('.page-lang:eq(1)').on('click',function(){
-		window.location.replace('index.html');
+	$('.page-lang:eq(1)').on('click touchstart',function(){
+		let path = window.location.pathname.replace('/dist/','');
+		path = path.replace('_ru','');
+		path = path.replace('_am','');
+		window.location.replace(`${path}`);
 	});
 
-	// $('.page-lang:eq(1)').on('click',function(){
-	// 	window.location.replace('index.html');
-	// });
+	$('.page-lang:eq(2)').on('click touchstart',function(){
+		let path = window.location.pathname.replace('/dist/','');
+		path = path.replace('_am','');
+		path = path.replace('.html','');
+		window.location.replace(`${path}_ru.html`);
+	});
 });

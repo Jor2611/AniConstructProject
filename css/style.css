@@ -265,7 +265,7 @@ h4,
 h5,
 h6,
 .hfont {
-	font-family: 'Comfortaa', sans-serif;
+	font-family: 'Saira', sans-serif;
 	color: #202020;
 	font-weight: 300;
 	margin: 0;
@@ -1330,7 +1330,7 @@ article.personal-profile .inner h4 {
 }
 
 .service-box:nth-child(2n) .image {
-	right: 20px;
+	/* right: 20px; */
 }
 
 .service-box .image i {
@@ -1352,8 +1352,8 @@ article.personal-profile .inner h4 {
 }
 
 .service-box:nth-child(2n) .inner {
-	margin-left: 0;
-	margin-right: 260px;
+	/* margin-left: 0;
+	margin-right: 260px; */
 	/* text-align: right; */
 }
 
@@ -2566,9 +2566,21 @@ a:hover{color:#007a99;}
 .widget ul li a:hover{color:#007a99;}
 .nav-tabs > li > a,.nav-tabs > li.active > a,.nav-tabs > li.active > a:hover,.panel-default > .panel-heading a,.btn{color:#202020;}
 body,address,.panel-title{font-family:Ubuntu;font-weight:300;font-style:normal;font-size:16px;line-height:29px;color:#202020;}
-h1,.hfont{font-family:Comfortaa;font-weight:300;font-style:normal;font-size:40px;line-height:64px;color:#202020;}
-h2{font-family:Comfortaa;font-weight:300;font-style:normal;font-size:36px;line-height:58px;color:#202020;}
-h3,h3 address{font-family:Comfortaa;font-weight:300;font-style:normal;font-size:32px;line-height:51px;color:#202020;}
-h4{font-family:Comfortaa;font-weight:300;font-style:normal;font-size:28px;line-height:45px;color:#202020;}
-h5{font-family:Comfortaa;font-weight:300;font-style:normal;font-size:24px;line-height:39px;color:#202020;}
-h6{font-family:Comfortaa;font-weight:300;font-style:normal;font-size:20px;line-height:32px;color:#202020;}
+h1,.hfont{font-family:Saira;font-weight:300;font-style:normal;font-size:40px;line-height:64px;color:#202020;}
+h2{font-family:Saira;font-weight:300;font-style:normal;font-size:36px;line-height:58px;color:#202020;}
+h3,h3 address{font-family:Saira;font-weight:300;font-style:normal;font-size:32px;line-height:51px;color:#202020;}
+h4{font-family:Saira;font-weight:300;font-style:normal;font-size:28px;line-height:45px;color:#202020;}
+h5{font-family:Saira;font-weight:300;font-style:normal;font-size:24px;line-height:39px;color:#202020;}
+h6{font-family:Saira;font-weight:300;font-style:normal;font-size:20px;line-height:32px;color:#202020;}
+
+
+.customer_message {
+	padding: 80px 0px 0px 15px;
+}
+
+@media (max-width: 992px) {
+	.customer_message {
+		padding: 0px;
+		font-size: 25px;
+	}
+}

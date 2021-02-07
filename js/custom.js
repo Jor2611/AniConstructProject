@@ -20,7 +20,7 @@ jQuery(document).ready(function($) {
 		$(".page-lang:eq(1)").hide();
 	}
 
-	if(window.location.pathname === "/dist/"){
+	if(window.location.pathname === "/dist/" || window.location.pathname === "/"){
 		window.location.replace("/dist/index.html")
 	}
 /*==========================================================*/

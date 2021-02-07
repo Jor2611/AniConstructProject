@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/Jor2611/AniConstructProject/issues"
   },
-  "homepage": "https://Jor2611.github.io/AniConstructProject",
+  "homepage": "https://Jor2611.github.io/AniConstructProject/index.html",
   "dependencies": {
     "gh-pages": "^2.0.1"
   }

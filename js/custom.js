@@ -283,7 +283,8 @@ jQuery(document).ready(function($) {
 		let path = window.location.pathname.replace('/dist/','');
 		path = path.replace('_ru','');
 		path = path.replace('.html','');
-		path.langth < 1 ? path = 'index' : path;
+		console.log(path);
+		path.length < 1 ? path = 'index' : path;
 		window.location.replace(`${path}_am.html`);
 		// console.log(window.location.pathname.match(/am/i));
 	});
@@ -292,7 +293,7 @@ jQuery(document).ready(function($) {
 		let path = window.location.pathname.replace('/dist/','');
 		path = path.replace('_ru','');
 		path = path.replace('_am','');
-		path.langth < 1 ? path = 'index' : path;
+		path.length < 1 ? path = 'index' : path;
 		window.location.replace(`${path}`);
 	});
 
@@ -300,7 +301,7 @@ jQuery(document).ready(function($) {
 		let path = window.location.pathname.replace('/dist/','');
 		path = path.replace('_am','');
 		path = path.replace('.html','');
-		path.langth < 1 ? path = 'index' : path;
+		path.length < 1 ? path = 'index' : path;
 		window.location.replace(`${path}_ru.html`);
 	});
 });

@@ -19,10 +19,6 @@ jQuery(document).ready(function($) {
 	}else{
 		$(".page-lang:eq(1)").hide();
 	}
-
-	if(window.location.pathname === "/dist/" || window.location.pathname === "/"){
-		window.location.replace("/dist/index.html")
-	}
 /*==========================================================*/
 /* Collapsible sidebar
 /*==========================================================*/
